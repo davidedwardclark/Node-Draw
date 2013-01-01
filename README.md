@@ -1,7 +1,7 @@
 Node-Draw
 =========
 
-![](example.jpg?raw=true)
+![](Node-Draw/example.jpg?raw=true)
 
 A multiplayer drawing application with touch support.
 
