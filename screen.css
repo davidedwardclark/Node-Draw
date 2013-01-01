@@ -1,0 +1,34 @@
+/*-------------------------
+    Simple reset
+--------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------
+    General Styles
+--------------------------*/
+section, footer, header {
+    display: block;
+}
+body {
+    background-color: #eeeeee;
+}
+
+/*-------------------------
+    Canvas & Cursors
+--------------------------*/
+#paper {
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+#cursors {
+    position: relative;
+}
+#cursors .cursor {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    background: url('pointer.png') no-repeat -4px 0;
+}
