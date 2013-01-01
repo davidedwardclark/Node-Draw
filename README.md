@@ -11,3 +11,8 @@ Full credit goes to Martin Angelov for his tutorial on TutorialZine: http://tuto
 
 Setup
 -----
+1. Install NodeJS: http://nodejs.org/
+2. Clone the Node-Draw repo.
+3. Open client.js and update the URL variable (top of the file) with your computer or servers IP address.
+3. Run 'node server.js' on the command line.
+4. Connect with multiple clients and have some drawing fun!!! :D :D :D
