@@ -1,8 +1,6 @@
 Node-Draw
 =========
 
-![](Node-Draw/blob/master/example.jpg)
-
 A multiplayer drawing application with touch support.
 
 Uses: NodeJS, Socket.IO & HTML5 Canvas.
