@@ -1,9 +1,7 @@
 Node-Draw
 =========
 
-Online demo: http://192.40.57.23/
-
-![](Node-Draw/blob/master/example.jpg?raw=true)
+![](Node-Draw/blob/master/example.jpg)
 
 A multiplayer drawing application with touch support.
 
