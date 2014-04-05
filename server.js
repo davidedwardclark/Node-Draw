@@ -17,7 +17,7 @@ function handler (request, response)
 {
 	request.addListener('end', function () {
         fileServer.serve(request, response);
-    });
+    }).resume();
 }
 
 // Delete this row if you want to see debug messages
