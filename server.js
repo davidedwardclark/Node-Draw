@@ -1,8 +1,7 @@
 // Including libraries
-
-var app = require('http').createServer(handler),
-	io = require('socket.io').listen(app),
-	static = require('node-static'); // for serving files
+var app = require('http').createServer(handler);
+var io = require('socket.io').listen(app);
+var static = require('node-static'); // for serving files
 
 // This will make all the files in the current folder
 // accessible from the web
@@ -13,8 +12,7 @@ var fileServer = new static.Server('./');
 app.listen(8080);
 
 // If the URL of the socket server is opened in a browser
-function handler (request, response)
-{
+function handler(request, response) {
 	request.addListener('end', function () {
         fileServer.serve(request, response);
     });

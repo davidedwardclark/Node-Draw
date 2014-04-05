@@ -1,7 +1,7 @@
 $(function(){
 
     // Configuration
-    var url = 'http://10.0.1.3'; // URL of your webserver
+    var url = 'http://127.0.0.1'; // URL of your webserver
     var line_thickness = 7;
     var line_colour = "blue";
 
