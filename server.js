@@ -14,8 +14,8 @@ app.listen(8080);
 // If the URL of the socket server is opened in a browser
 function handler(request, response) {
 	request.addListener('end', function () {
-        fileServer.serve(request, response);
-    }).resume();
+		fileServer.serve(request, response);
+	}).resume();
 }
 
 // Delete this row if you want to see debug messages
